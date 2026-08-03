@@ -5,7 +5,7 @@ function totalKalori(points) {
         total += points[i];
     }   if (total > 2500) {
         console.log(`Anda telah melebihi batas kalori harian`);
-    } else if (total === 2500) {
+    } else if (total = 2500) {
         console.log(`Anda telah mencapai batas kalori harian`);
     } else {
         console.log(`Anda belum mencapai batas kalori harian`);
