@@ -6,7 +6,7 @@ function totalHargaBuku(hargaBuku) {
   }if (total > 150000) {
     console.log(`selamat anda mendapatkan diskon 15% : ${total * 0.15}`);
   }else {
-    console.log(`total barang anda kutang dari 150.000`)
+    console.log(`total barang anda kurang dari 150.000`)
   }
   return total;
 }
