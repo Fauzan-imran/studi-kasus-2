@@ -4,8 +4,8 @@ function totalHargaBuku(hargaBuku) {
   for (let i = 0; i < hargaBuku.length; i++) {
     total += hargaBuku[i]; 
   }if (total > 150000) {
-    console.log(`selamat anda mendapatkan diskon 15% : ${total * 0.15}`);
-    console.log(`total harga buku stelah diskon : ${total - (total * 0.15)}`);
+    console.log(`selamat anda mendapatkan diskon 15% : ${total * 0.15}
+    total harga buku stelah diskon : ${total - (total * 0.15)}`);
   }else {
     console.log(`total barang anda kurang dari 150.000`)
   }
