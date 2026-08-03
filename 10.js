@@ -6,10 +6,10 @@ const daftarEmail = [
 ];
 function validasiDaftarEmail(daftarEmail) {
     for (let i = 0; i < daftarEmail.length; i++){
-        let email = daftarEmail.slice(0)
-        let apa = 0;
-        let iya = 0;
-        for (let a = 0; a < email.length; i++){
+        let email = daftarEmail[i];
+        let apa = "";
+        let iya = "";
+        for (let a = 0; a < email.length; a++){
             if (email[a] == "@"){
                 apa = email[a];
             }
@@ -18,9 +18,9 @@ function validasiDaftarEmail(daftarEmail) {
             }
         }
         if (apa == "@" && iya == "."){
-            console.log(`email valid`);
+            console.log(`${email} email valid`);
         } else {
-            console.log(`email tidak valid`);
+            console.log(`${email} email tidak valid`);
         }
     }
 }
